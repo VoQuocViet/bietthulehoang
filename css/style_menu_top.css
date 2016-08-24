@@ -1,0 +1,163 @@
+.navbar-default .navbar-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav > li {
+    margin-left: 24px;
+}
+
+.navbar-default .navbar-nav > li.drop {
+    position: relative;
+    margin-right: -16px;
+}
+
+.navbar-default .navbar-nav > li:first-child {
+    margin-left: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    position: relative;
+    color: #0076f9;
+    font-size: 15px;
+   
+    font-weight: 300;
+    padding: 15px 0;
+    text-transform: uppercase;
+    border-top: 5px solid transparent;
+    z-index: 2;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+    -webkit-backface-visibility: hidden;
+}
+
+.navbar-default .navbar-nav > li.drop > a {
+    padding-right: 16px;
+}
+
+.navbar-default .navbar-nav > li > a.active {
+    color: #0077f9;
+    border-top: 5px solid #0077f9;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #0077f9;
+}
+
+header.active .navbar-nav > li > a {
+    padding: 24px 0 26px;
+}
+
+ul.drop-down {
+    position: absolute;
+    top: 100%;
+    left: -40px;
+    width: 250px;
+    visibility: hidden\0/;
+    opacity: 0;
+    z-index: 3;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    -mos-transition: -mos-transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition: -o-transform 0.4s, opacity 0.1s 0.3s;
+    
+    list-style-type: none;
+    
+}
+
+.navbar-default .navbar-nav > li:hover > ul.drop-down {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      -o-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+      -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+      -mos-transition: -mos-transform 0.4s, opacity 0.1s;
+      -o-transition: -o-transform 0.4s, opacity 0.1s;
+      transition: transform 0.4s, opacity 0.1s;
+}
+
+ul.drop-down li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Tahoma', sans-serif;
+    padding: 10px 12px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #CAA94E /* #0076f9 */;
+    font-weight: 300;
+    opacity: 1;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+}
+
+ul.drop-down li {
+    position: relative;
+}
+ ul.drop-down.level3 {
+    top: 0;
+    left: 100%;
+    -webkit-transform: rotateY(-90deg);
+    -moz-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    -o-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+}
+
+ul.drop-down li:hover ul.drop-down.level3 {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+      -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+      -mos-transition: -mos-transform 0.4s, opacity 0.1s;
+      -o-transition: -o-transform 0.4s, opacity 0.1s;
+      transition: transform 0.4s, opacity 0.1s;
+}
+
+ul.drop-down li:first-child a {
+    border-top: none;
+}
+
+ul.drop-down li a:hover {
+    opacity: 1;
+    color: #f90;
+}
+.navbar-brand
+{
+	margin-top: 3px;
+}

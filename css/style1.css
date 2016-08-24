@@ -1,0 +1,379 @@
+/*
+Author: NTT
+Country: VietNam
+Year: 2014
+*/
+body, div, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+    overflow: auto;
+}
+
+/*Main Page*/
+.main-page {
+}
+
+.menu-top {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #3A2B36;
+    border: none;
+    color: #FFF;
+}
+
+.menu-top a {
+    color: #FFF !important;
+}
+
+.menu-top ul li ul {
+    background-color: #3A2B36;
+    border-radius: 0;
+}
+
+#menu-top {
+    line-height: 50px;
+    text-align: center;
+    background-color: #3A2B36;
+}
+
+#menu-top ul {
+    display: inline;
+}
+
+#menu-top > ul > li > a {
+    padding: 0 20px 0 20px;
+    color: #FFF;
+    line-height: 50px;
+}
+
+#menu-top > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+#menu-top > ul > li {
+    line-height: normal;
+}
+
+#menu-top > ul > li > ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+    z-index: 1000;
+    background-color: #3A2B36;
+}
+
+#menu-top ul li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+#menu-top > ul > li > ul > li > a {
+    line-height: 25px;
+    padding: 0 20px 0 20px;
+    color: #FFF;
+}
+
+#menu-top a:hover {
+    text-decoration: none;
+    color: #DDD;
+}
+
+div#mp-outerlogo {
+    background-image: url("../images/bg-logo-inner.jpg");
+    margin-bottom: 20px;
+    position: relative;
+}
+
+div#mp-logo {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: url("../images/bg_logo.png") repeat;
+    padding: 20px;
+}
+
+div.sidebar-right {
+
+    text-align: justify;
+}
+
+div.sidebar-right h2 {
+    background-color: #564152;
+    padding: 5px 0 5px 15px;
+    border-left: solid #F48147 5px;
+    color: #FFF;
+}
+
+/*End Main Page*/
+
+/*Home Page*/
+/*Logo*/
+div.home-logo, div#i-logo {
+    z-index: 100;
+    position: absolute;
+    top: 50px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url("../images/bg_logo.png") repeat;
+    padding: 20px;
+}
+
+/*End Logo*/
+
+/*Slide*/
+/*.flexslider{*/
+/*border: none;*/
+/*background-color: #0e3950;*/
+/*margin-top: 0;*/
+/*background: url("../images/bg_logo.png") repeat;*/
+/*margin-bottom: 120px;*/
+/*}*/
+/*.flex-control-nav .flex-control-paging{*/
+/*margin-top: 10px;*/
+/*}*/
+/*.slides .flex-viewport{*/
+/*margin-bottom: 0;*/
+/*}*/
+/*.flex-caption{*/
+/*position: absolute;*/
+/*top: 340px;*/
+/*width: 100%;*/
+/*background-color: #FFF;*/
+/*text-align: center;*/
+/*height: 100px;*/
+/*background: url("../images/bg_title.jpg") repeat;*/
+/*}*/
+/*End Slider*/
+
+/*Grid*/
+div.home-showgrid {
+    background: url("../images/bg_body.jpg") repeat;
+    padding-top: 10px;
+}
+
+.show-box div {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+div.show-box-img img {
+    margin: auto;
+    border-radius: 50%;
+    border: solid 10px #FFF;
+}
+
+/*End Grid*/
+
+/*End Home Page*/
+
+/*Gallery Page*/
+#slogan {
+    background: url("../images/bg_title.jpg") repeat;
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 180px;
+    border: 5px solid #FFF;
+    background-color: #005684;
+}
+
+.i-main {
+    background: url("../images/bg_body.jpg") repeat;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.khuyen-mai {
+    background: #0074a2 url("../images/bg_title.jpg") repeat;
+}
+
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l                  (normal)
+.jssora05r                  (normal)
+.jssora05l:hover            (normal mouseover)
+.jssora05r:hover            (normal mouseover)
+.jssora05l.jssora05ldn      (mousedown)
+.jssora05r.jssora05rdn      (mousedown)
+*/
+.jssora05l, .jssora05r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url(images/a17.png) no-repeat;
+    overflow: hidden;
+}
+
+.jssora05l {
+    background-position: -10px -40px;
+}
+
+.jssora05r {
+    background-position: -70px -40px;
+}
+
+.jssora05l:hover {
+    background-position: -130px -40px;
+}
+
+.jssora05r:hover {
+    background-position: -190px -40px;
+}
+
+.jssora05l.jssora05ldn {
+    background-position: -250px -40px;
+}
+
+.jssora05r.jssora05rdn {
+    background-position: -310px -40px;
+}
+
+/* jssor slider thumbnail navigator skin 02 css */
+/*
+.jssort02 .p            (normal)
+.jssort02 .p:hover      (normal mouseover)
+.jssort02 .p.pav        (active)
+.jssort02 .p.pdn        (mousedown)
+*/
+.jssort02 {
+    position: absolute;
+    /* size of thumbnail navigator container */
+    width: 240px;
+    height: 480px;
+}
+
+.jssort02 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99px;
+    height: 66px;
+}
+
+.jssort02 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.jssort02 .w {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.jssort02 .c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 95px;
+    height: 62px;
+    border: #000 2px solid;
+    background: url(images/t01.png) -800px -800px no-repeat;
+    _background: none;
+}
+
+.jssort02 .pav .c {
+    top: 2px;
+    _top: 0px;
+    left: 2px;
+    _left: 0px;
+    width: 95px;
+    height: 62px;
+    border: #000 0px solid;
+    _border: #fff 2px solid;
+    background-position: 50% 50%;
+}
+
+.jssort02 .p:hover .c {
+    top: 0px;
+    left: 0px;
+    width: 97px;
+    height: 64px;
+    border: #fff 1px solid;
+    background-position: 50% 50%;
+}
+
+.jssort02 .p.pdn .c {
+    background-position: 50% 50%;
+    width: 95px;
+    height: 62px;
+    border: #000 2px solid;
+}
+
+* html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {
+    /* ie quirks mode adjust */
+    width /**/: 99px;
+    height /**/: 66px;
+}
+
+#slider1_container {
+    margin: auto;
+}
+
+/*End Gallery Page*/
+
+/*Tin-tuc*/
+
+/*End Tin Tuc*/
+
+/*Khuyen Mai*/
+.khuyen-mai {
+    background: url("../images/bg_body.jpg") repeat;
+}
+
+/*End Khuyen Mai*/
+
+/*Comment*/
+div.comment {
+    border: solid 1px #DDD;
+    padding: 10px;
+}
+
+div.comment img {
+    float: left;
+}
+
+div.comment p {
+    float: left;
+    padding: 10px;
+}
+
+/*End Comment*/
+.html5gallery {
+    width: 800px;
+    height: 500px;
+}
+
+/*Footer*/
+#footer {
+    background-color: #42323F;
+    color: #EEE;
+}
+
+#footer-brand {
+    line-height: 100px;
+    background-color: #2D222B;
+    color: #EEE;
+}
+
+/*End Footer*/

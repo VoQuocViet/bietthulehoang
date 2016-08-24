@@ -1,0 +1,49 @@
+/*
+Author: NTT
+Country: VietNam
+Year: 2014
+*/
+body, div, ul, li{
+    padding: 0;
+    margin: 0;
+}
+a{ text-decoration: none;}
+li{ list-style: none;   }
+#m-top{
+    min-height: 50px;
+    width: 100%;
+    background-color: #48C3E9;
+}
+#m-left{
+    width: 20%;
+    border-right: solid 1px #AAA;
+    min-height: 720px;
+    float: left;
+    background-color: #EEE;
+}
+#m-left li{
+    line-height: 40px;
+    border-bottom: solid 1px #BBB;
+    color: #0074a2;
+}
+#m-left li:hover{
+    background-color: #f04040;
+    color: #FFF;
+}
+#m-left li a{
+    margin-left: 20px;
+    color: inherit;
+    
+}
+#c-right{
+    float: left;
+    width: 80%;
+    padding: 20px;
+}
+#c-right > table{
+    margin: 20px 0 0 50px;
+   
+}
+#c-right-caption{
+    margin: 30px;
+}

@@ -1,0 +1,140 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+select {
+	width: :80% !important;
+	/* border: 3px solid rgb(200, 200, 207); */
+	height: 35px;
+	padding: 0px;
+	/* border-radius: 3px; */
+	/* margin: 5px -30px 20px 30px; */
+	margin: 0px 60px 25px 0px;
+}
+
+input[type=text] {
+	width: 76%;
+	/* border: 3px solid rgb(200, 200, 207); */
+	height: 35px;
+    padding: 0px;
+    /* border-radius: 3px; */
+    margin: 0px 60px 25px 0px;
+}
+
+input[type=submit] {
+	width: 80%;
+	border: 3px solid rgb(200, 200, 207);
+	height: 50px;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 10px 10px 20px 35px;
+	border: 2px solid green;
+}
+
+label {
+	font-family: 'Droid Serif', serif;
+}
+
+.main {
+	float: left;
+	width: 355px;
+	height: 350px;
+	box-shadow: 1px 1px 12px gray;
+	padding-top: 30px;
+}
+
+h2 {
+	width: 370px;
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+}
+
+.container {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9,
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+/***************************************************/
+.search {
+	background: #CDBE70;
+	width: 100%;
+	padding-bottom: 0;
+	box-sizing: border-box;
+	margin-bottom: 1.5em;
+	vertical-align: middle;
+}
+
+.search .availForm {
+	text-align: center
+}
+
+.search_wrapper {
+	display: inline-block;
+	margin: 0.1em 0.5em 0.5em 0.5em;
+	padding-top: 1em
+}
+
+.search_wrapper label {
+	display: block;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	color: #000;
+	text-transform: capitalize;
+	text-align: left;
+}
+
+.search_wrapper.guests {
+	zoom: 1
+}
+
+.search_wrapper.guests:after, .search_wrapper.guests:before {
+	content: "";
+	display: table
+}
+
+.search_wrapper.guests:after {
+	clear: both
+}
+
+.search_wrapper .button {
+	padding: 0;
+}
+
+.search_wrapper .search-btn {
+	background-color: #B8860B;
+	border: solid thin;
+	border-color: #8B6914;
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	color: #fff;
+	font-size: 18px
+}
+
+.search_wrapper .search-btn.disabled {
+	pointer-events: none;
+	opacity: .4
+}
+
+.search_wrapper .input_wrapper {
+	position: relative;
+	text-align: left
+}
+
+.search_dates_arrival, .search_dates_departure, .search_guests {
+	display: inline-block
+}
+
+.search_dates_arrival {
+	margin-right: .25em
+}
+
+.search_dates_departure {
+	margin-right: .25em
+}
